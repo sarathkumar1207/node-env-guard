@@ -1,0 +1,32 @@
+{
+  "name": "node-env-guard",
+  "version": "1.0.0",
+  "description": "Fail-fast environment variable validation for Node.js",
+  "keywords": [
+    "env",
+    "environment",
+    "validation",
+    "node",
+    "config"
+  ],
+  "homepage": "https://github.com/sarathkumar1207/node-env-guard#readme",
+  "bugs": {
+    "url": "https://github.com/sarathkumar1207/node-env-guard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarathkumar1207/node-env-guard.git"
+  },
+  "license": "MIT",
+  "author": "Sarathkumar",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node test/failure.test.js && node test/success.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}

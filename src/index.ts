@@ -1,0 +1,1 @@
+export { checkEnv } from './checkEnv';
